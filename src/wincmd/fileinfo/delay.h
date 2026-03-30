@@ -66,7 +66,6 @@ PfnDliHook __ pfnDliNotifyHook = DliHook;
 */
 
 //  deuxieme exemple
-PfnDliHook   __pfnDliFailureHook;
 
 using namespace std;
 
@@ -95,7 +94,7 @@ FARPROC WINAPI hookDLLLoad(unsigned dliNotify,PDelayLoadInfo  pdli)
 // Dans le code
  __pfnDliFailureHook=hookDLLLoad;
 
-// DLL•®•Ø•π•›°º•»¥ÿøÙ§À•¢•Ø•ª•π§π§Î§»§≠°¢Œ„≥∞§Ú•≠•„•√•¡§π§Î
+// DLL„Ç®„ÇØ„Çπ„Éù„Éº„ÉàÈñ¢Êï∞„Å´„Ç¢„ÇØ„Çª„Çπ„Åô„Çã„Å®„Åç„ÄÅ‰æãÂ§ñ„Çí„Ç≠„É£„ÉÉ„ÉÅ„Åô„Çã
 	try {
 		exFunc();
 	} catch(dllload_error er) {
