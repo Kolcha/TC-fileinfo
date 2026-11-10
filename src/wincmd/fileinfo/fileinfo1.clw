@@ -41,50 +41,50 @@ Resource10=IDD_fi (English (U.S.))
 [CLS:CHyperLink]
 Type=0
 BaseClass=CStatic
-HeaderFile=\Program Files\Microsoft Visual Studio\MyProjects\wincmd\commun\hyperlink.h
-ImplementationFile=\Program Files\Microsoft Visual Studio\MyProjects\wincmd\commun\HyperLink.cpp
+HeaderFile=..\commun\hyperlink.h
+ImplementationFile=..\commun\HyperLink.cpp
 
 [CLS:CListGrid]
 Type=0
 BaseClass=CResizePage
-HeaderFile=\Program Files\Microsoft Visual Studio\MyProjects\wincmd\commun\ListGrid.h
-ImplementationFile=\Program Files\Microsoft Visual Studio\MyProjects\wincmd\commun\ListGrid.cpp
+HeaderFile=..\commun\ListGrid.h
+ImplementationFile=..\commun\ListGrid.cpp
 
 [CLS:CListpagePty]
 Type=0
 BaseClass=CResizePage
-HeaderFile=\Program Files\Microsoft Visual Studio\MyProjects\wincmd\commun\ListpagePty.h
-ImplementationFile=\Program Files\Microsoft Visual Studio\MyProjects\wincmd\commun\ListpagePty.cpp
+HeaderFile=..\commun\ListpagePty.h
+ImplementationFile=..\commun\ListpagePty.cpp
 
 [CLS:CListplugApp]
 Type=0
 BaseClass=CWinApp
-HeaderFile=\Program Files\Microsoft Visual Studio\MyProjects\wincmd\commun\listplug.h
+HeaderFile=..\commun\listplug.h
 ImplementationFile=fileinfo.cpp
 
 [CLS:CListWnd]
 Type=0
 BaseClass=CWnd
-HeaderFile=\Program Files\Microsoft Visual Studio\MyProjects\wincmd\commun\ListWnd.h
-ImplementationFile=\Program Files\Microsoft Visual Studio\MyProjects\wincmd\commun\ListWnd.cpp
+HeaderFile=..\commun\ListWnd.h
+ImplementationFile=..\commun\ListWnd.cpp
 
 [CLS:CPageTree]
 Type=0
 BaseClass=CResizePage
-HeaderFile=\Program Files\Microsoft Visual Studio\MyProjects\wincmd\commun\PageTree.h
-ImplementationFile=\Program Files\Microsoft Visual Studio\MyProjects\wincmd\commun\PageTree.cpp
+HeaderFile=..\commun\PageTree.h
+ImplementationFile=..\commun\PageTree.cpp
 
 [CLS:CPropertySheetRz]
 Type=0
 BaseClass=CPropertySheet
-HeaderFile=\Program Files\Microsoft Visual Studio\MyProjects\wincmd\commun\PropertySheetRz.h
-ImplementationFile=\Program Files\Microsoft Visual Studio\MyProjects\wincmd\commun\PropertySheetRz.cpp
+HeaderFile=..\commun\PropertySheetRz.h
+ImplementationFile=..\commun\PropertySheetRz.cpp
 
 [CLS:CResizePage]
 Type=0
 BaseClass=CPropertyPage
-HeaderFile=\Program Files\Microsoft Visual Studio\MyProjects\wincmd\commun\resizepage.h
-ImplementationFile=\Program Files\Microsoft Visual Studio\MyProjects\wincmd\commun\ResizePage.cpp
+HeaderFile=..\commun\resizepage.h
+ImplementationFile=..\commun\ResizePage.cpp
 
 [CLS:CAbout]
 Type=0
@@ -228,8 +228,8 @@ LastObject=IDC_LIST1
 
 [CLS:CWait]
 Type=0
-HeaderFile=\Program Files\Microsoft Visual Studio\Projects\wincmd\commun\wait.h
-ImplementationFile=\Program Files\Microsoft Visual Studio\Projects\wincmd\commun\wait.cpp
+HeaderFile=..\commun\wait.h
+ImplementationFile=..\commun\wait.cpp
 BaseClass=CDialog
 LastObject=CWait
 

@@ -533,7 +533,7 @@
 			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
 			>
 			<File
-				RelativePath="..\..\..\..\Dropbox\Dev\wincmd\unaspack\unaspack.cpp"
+				RelativePath=".\unaspack.cpp"
 				>
 			</File>
 		</Filter>
@@ -542,11 +542,11 @@
 			Filter="h;hpp;hxx;hm;inl"
 			>
 			<File
-				RelativePath="..\..\..\..\Dropbox\Dev\wincmd\unaspack\StdAfx.h"
+				RelativePath=".\StdAfx.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\Dropbox\Dev\wincmd\unaspack\unpack.h"
+				RelativePath=".\unpack.h"
 				>
 			</File>
 		</Filter>

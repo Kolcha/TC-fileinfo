@@ -467,35 +467,35 @@
 			Filter="h;hpp;hxx;hm;inl"
 			>
 			<File
-				RelativePath="..\..\..\..\..\Dropbox\Dev\wincmd\fileinfo\PEexe\decplug.h"
+				RelativePath=".\decplug.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\..\Dropbox\Dev\wincmd\fileinfo\PEexe\DEPENDENCYLIST.H"
+				RelativePath=".\DEPENDENCYLIST.H"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\..\Dropbox\Dev\wincmd\fileinfo\PEexe\EXEFILE.H"
+				RelativePath=".\EXEFILE.H"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\..\Dropbox\Dev\wincmd\fileinfo\PEexe\MEMORYMAPPEDFILE.H"
+				RelativePath="..\..\commun\MEMORYMAPPEDFILE.H"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\..\Dropbox\Dev\wincmd\fileinfo\PEexe\modulefileinfo.h"
+				RelativePath=".\modulefileinfo.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\..\Dropbox\Dev\wincmd\fileinfo\PEexe\PEEXE.H"
+				RelativePath=".\PEEXE.H"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\..\Dropbox\Dev\wincmd\fileinfo\PEexe\StdAfx.h"
+				RelativePath=".\StdAfx.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\..\Dropbox\Dev\wincmd\fileinfo\PEexe\upxdec.h"
+				RelativePath=".\upxdec.h"
 				>
 			</File>
 		</Filter>

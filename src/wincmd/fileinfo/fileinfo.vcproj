@@ -708,10 +708,6 @@
 				>
 			</File>
 			<File
-				RelativePath="..\..\commun32\RTFFormat.h"
-				>
-			</File>
-			<File
 				RelativePath="StdAfx.h"
 				>
 			</File>
@@ -733,23 +729,23 @@
 			Filter="ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"
 			>
 			<File
-				RelativePath="..\..\..\..\Dropbox\Dev\wincmd\fileinfo\bitmap2.bmp"
+				RelativePath=".\bitmap2.bmp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\Dropbox\Dev\wincmd\fileinfo\bmtreebi.bmp"
+				RelativePath=".\bmtreebi.bmp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\Dropbox\Dev\wincmd\fileinfo\delayed.bmp"
+				RelativePath=".\delayed.bmp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\Dropbox\Dev\wincmd\fileinfo\delmissi.bmp"
+				RelativePath=".\delmissi.bmp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\Dropbox\Dev\wincmd\fileinfo\fileinfo.bmp"
+				RelativePath=".\fileinfo.bmp"
 				>
 			</File>
 			<File
@@ -757,27 +753,27 @@
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\Dropbox\Dev\wincmd\fileinfo\follow.bmp"
+				RelativePath=".\follow.bmp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\Dropbox\Dev\wincmd\fileinfo\Found.bmp"
+				RelativePath=".\Found.bmp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\Dropbox\Dev\wincmd\fileinfo\mailme.bmp"
+				RelativePath=".\mailme.bmp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\Dropbox\Dev\wincmd\fileinfo\missing.bmp"
+				RelativePath=".\missing.bmp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\Dropbox\Dev\wincmd\fileinfo\NFdelayed.bmp"
+				RelativePath=".\NFdelayed.bmp"
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\Dropbox\Dev\wincmd\fileinfo\NotFound.bmp"
+				RelativePath=".\NotFound.bmp"
 				>
 			</File>
 			<File
@@ -785,24 +781,20 @@
 				>
 			</File>
 			<File
-				RelativePath="..\..\..\..\Dropbox\Dev\wincmd\fileinfo\support.bmp"
+				RelativePath=".\support.bmp"
 				>
 			</File>
 		</Filter>
-		<File
-			RelativePath="..\..\..\..\Dropbox\Dev\wincmd\fileinfo\A faire.txt"
-			>
-		</File>
 		<File
 			RelativePath=".\pluginst.inf"
 			>
 		</File>
 		<File
-			RelativePath="..\..\..\..\Dropbox\Dev\wincmd\fileinfo\ReadMe.txt"
+			RelativePath=".\ReadMe.txt"
 			>
 		</File>
 		<File
-			RelativePath="..\..\..\..\Dropbox\Dev\wincmd\fileinfo\todolist.txt"
+			RelativePath=".\todolist.txt"
 			>
 		</File>
 	</Files>
