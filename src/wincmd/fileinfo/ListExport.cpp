@@ -155,9 +155,11 @@ BOOL CListExport::OnInitDialog()
 		Load();
 	}
 	m_list.SetHorizontalExtent( m_Hsize * 10 );
+/*
 	font = new(CFont);
 	font->CreateFont( -FontSize, 0, 0, 0, FW_THIN, 0, 0, 0, ANSI_CHARSET, OUT_DEVICE_PRECIS, CLIP_CHARACTER_PRECIS, PROOF_QUALITY, FF_MODERN, "Tahoma" ); // modern Courrier New
 	m_list.SetFont( font );
+*/
 	
     return TRUE;  // return TRUE unless you set the focus to a control
                  // EXCEPTION: OCX Property Pages should return FALSE
