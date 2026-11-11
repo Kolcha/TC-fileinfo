@@ -660,47 +660,27 @@
 			Filter="h;hpp;hxx;hm;inl"
 			>
 			<File
-				RelativePath="About.h"
+				RelativePath="delay.h"
 				>
 			</File>
 			<File
-				RelativePath="PEexe\decplug.h"
+				RelativePath="dosdump.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\commun32\fdate.h"
+				RelativePath="exetype.h"
 				>
 			</File>
 			<File
-				RelativePath="..\..\commun32\ffile.h"
+				RelativePath="file_ver.h"
 				>
 			</File>
 			<File
-				RelativePath="FileinfoListWnd.h"
+				RelativePath="file_ver.inl"
 				>
 			</File>
 			<File
 				RelativePath="fileinfotext.h"
-				>
-			</File>
-			<File
-				RelativePath="ListDlg.h"
-				>
-			</File>
-			<File
-				RelativePath="ListExport.h"
-				>
-			</File>
-			<File
-				RelativePath="ListOCX.h"
-				>
-			</File>
-			<File
-				RelativePath="ListSheet.h"
-				>
-			</File>
-			<File
-				RelativePath="ListWnd.h"
 				>
 			</File>
 			<File
@@ -716,13 +696,93 @@
 				>
 			</File>
 			<File
-				RelativePath="..\commun\TCutils.h"
+				RelativePath="TypeLib.h"
 				>
 			</File>
-			<File
-				RelativePath="unpack.h"
+			<Filter
+				Name="commun32"
 				>
-			</File>
+				<File
+					RelativePath="..\..\commun32\fdate.h"
+					>
+				</File>
+				<File
+					RelativePath="..\..\commun32\ffile.h"
+					>
+				</File>
+				<File
+					RelativePath="..\commun\HyperLink.h"
+					>
+				</File>
+				<File
+					RelativePath="..\commun\TCutils.h"
+					>
+				</File>
+				<File
+					RelativePath="..\..\commun32\verwin.h"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="ListSheet"
+				>
+				<File
+					RelativePath=".\About.h"
+					>
+				</File>
+				<File
+					RelativePath=".\FileinfoListWnd.h"
+					>
+				</File>
+				<File
+					RelativePath=".\ListDlg.h"
+					>
+				</File>
+				<File
+					RelativePath=".\ListExport.h"
+					>
+				</File>
+				<File
+					RelativePath=".\ListOcx.h"
+					>
+				</File>
+				<File
+					RelativePath=".\ListSheet.h"
+					>
+				</File>
+				<File
+					RelativePath=".\Option.h"
+					>
+				</File>
+				<File
+					RelativePath=".\PageTree.h"
+					>
+				</File>
+				<Filter
+					Name="commun"
+					>
+					<File
+						RelativePath="..\commun\listpagepty.h"
+						>
+					</File>
+					<File
+						RelativePath="..\commun\ListWnd.h"
+						>
+					</File>
+					<File
+						RelativePath="..\commun\PropertySheetRz.h"
+						>
+					</File>
+					<File
+						RelativePath="..\commun\ResizePage.h"
+						>
+					</File>
+					<File
+						RelativePath="..\commun\wait.h"
+						>
+					</File>
+				</Filter>
+			</Filter>
 		</Filter>
 		<Filter
 			Name="Resource Files"
@@ -777,14 +837,14 @@
 				>
 			</File>
 			<File
-				RelativePath="..\commun\resource.h"
-				>
-			</File>
-			<File
 				RelativePath=".\support.bmp"
 				>
 			</File>
 		</Filter>
+		<File
+			RelativePath=".\plugins.txt"
+			>
+		</File>
 		<File
 			RelativePath=".\pluginst.inf"
 			>

@@ -478,31 +478,47 @@
 			Filter="h;hpp;hxx;hm;inl"
 			>
 			<File
-				RelativePath="..\PEexe\decplug.h"
+				RelativePath=".\coffsymboltable.h"
 				>
 			</File>
 			<File
-				RelativePath="..\PEexe\DEPENDENCYLIST.H"
+				RelativePath=".\COMMON.H"
 				>
 			</File>
 			<File
-				RelativePath="..\PEexe\EXEFILE.H"
+				RelativePath=".\cv_dbg.h"
 				>
 			</File>
 			<File
-				RelativePath="..\PEexe\MEMORYMAPPEDFILE.H"
+				RelativePath=".\DBGDUMP.H"
 				>
 			</File>
 			<File
-				RelativePath="..\PEexe\modulefileinfo.h"
+				RelativePath=".\EXEDUMP.H"
 				>
 			</File>
 			<File
-				RelativePath="..\PEexe\PEEXE.H"
+				RelativePath=".\EXTRNVAR.H"
+				>
+			</File>
+			<File
+				RelativePath=".\libdump.h"
+				>
+			</File>
+			<File
+				RelativePath=".\OBJDUMP.H"
+				>
+			</File>
+			<File
+				RelativePath=".\resdump.h"
 				>
 			</File>
 			<File
 				RelativePath=".\StdAfx.h"
+				>
+			</File>
+			<File
+				RelativePath=".\symboltablesupport.h"
 				>
 			</File>
 			<File
@@ -511,10 +527,6 @@
 			</File>
 			<File
 				RelativePath="..\unmangle.h"
-				>
-			</File>
-			<File
-				RelativePath="..\PEexe\upxdec.h"
 				>
 			</File>
 		</Filter>

@@ -536,6 +536,10 @@
 				RelativePath=".\unaspack.cpp"
 				>
 			</File>
+			<File
+				RelativePath=".\unaspack.def"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
