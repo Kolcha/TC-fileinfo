@@ -1,0 +1,45 @@
+name: Build Windows Library
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: ${{ matrix.configuration }} - ${{ matrix.platform }}
+    runs-on: windows-2022
+
+    strategy:
+      fail-fast: false
+      matrix:
+        configuration: [Release, Release_dynMFC]
+        platform: [Win32, x64]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Build solution
+        shell: pwsh
+        run: |
+          msbuild src\wincmd\fileinfo\fileinfo.sln `
+            /m `
+            /t:Rebuild `
+            /p:Configuration=${{ matrix.configuration }} `
+            /p:Platform=${{ matrix.platform }} `
+            /p:VisualStudioVersion=17.0 `
+            /verbosity:minimal
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: FileInfo-${{ matrix.configuration }}-${{ matrix.platform }}
+          path: |
+            **/*.wlx*
+          if-no-files-found: warn
