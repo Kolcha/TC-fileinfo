@@ -76,7 +76,7 @@ public:
 	explicit dllload_error(const string& _S) : runtime_error(_S) {}
 	virtual ~dllload_error() {}
 protected:
-	virtual void _Doraise() const {_RAISE(*this); }
+	virtual void _Doraise() const { throw *this; }
 };
 
 /*
