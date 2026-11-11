@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c3c43336-5d7c-4ef9-aad9-c39a43500f57}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\common">
+      <UniqueIdentifier>{b5b69373-2ca3-4f4f-84a0-6cecc44e3d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ListSheet">
+      <UniqueIdentifier>{51a85420-926b-4031-b59a-f5aebf465ab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ListSheet\common">
+      <UniqueIdentifier>{d59bc037-5291-49a6-b091-9faf141b6744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{b722d579-3cdc-4844-968d-62ff2b782ebf}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\common">
+      <UniqueIdentifier>{7c78ff7f-6a96-4a79-b2d4-b860f2c40807}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ListSheet">
+      <UniqueIdentifier>{5daf7de5-869b-403a-a07c-674a9e6df416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ListSheet\common">
+      <UniqueIdentifier>{605a1b71-5820-4f07-926f-309035ad4789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{65cbc3a1-161c-4f79-81e3-f727fbc6410e}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dosdump.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file_ver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fileinfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="fileinfotext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeLib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\fdate.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ffile.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\HyperLink.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\TCutils.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\verwin.cpp">
+      <Filter>Source Files\common</Filter>
+    </ClCompile>
+    <ClCompile Include="About.cpp">
+      <Filter>Source Files\ListSheet</Filter>
+    </ClCompile>
+    <ClCompile Include="FileinfoListWnd.cpp">
+      <Filter>Source Files\ListSheet</Filter>
+    </ClCompile>
+    <ClCompile Include="ListDlg.cpp">
+      <Filter>Source Files\ListSheet</Filter>
+    </ClCompile>
+    <ClCompile Include="ListExport.cpp">
+      <Filter>Source Files\ListSheet</Filter>
+    </ClCompile>
+    <ClCompile Include="ListOCX.cpp">
+      <Filter>Source Files\ListSheet</Filter>
+    </ClCompile>
+    <ClCompile Include="ListSheet.cpp">
+      <Filter>Source Files\ListSheet</Filter>
+    </ClCompile>
+    <ClCompile Include="Option.cpp">
+      <Filter>Source Files\ListSheet</Filter>
+    </ClCompile>
+    <ClCompile Include="PageTree.cpp">
+      <Filter>Source Files\ListSheet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\ListpagePty.cpp">
+      <Filter>Source Files\ListSheet\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\ListWnd.cpp">
+      <Filter>Source Files\ListSheet\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\PropertySheetRz.cpp">
+      <Filter>Source Files\ListSheet\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\ResizePage.cpp">
+      <Filter>Source Files\ListSheet\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\wait.cpp">
+      <Filter>Source Files\ListSheet\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="listplug.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="file_ver.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="pluginst.inf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="delay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dosdump.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exetype.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="file_ver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fileinfotext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TCOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\fdate.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\ffile.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\HyperLink.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\TCutils.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\verwin.h">
+      <Filter>Header Files\common</Filter>
+    </ClInclude>
+    <ClInclude Include="About.h">
+      <Filter>Header Files\ListSheet</Filter>
+    </ClInclude>
+    <ClInclude Include="FileinfoListWnd.h">
+      <Filter>Header Files\ListSheet</Filter>
+    </ClInclude>
+    <ClInclude Include="ListDlg.h">
+      <Filter>Header Files\ListSheet</Filter>
+    </ClInclude>
+    <ClInclude Include="ListExport.h">
+      <Filter>Header Files\ListSheet</Filter>
+    </ClInclude>
+    <ClInclude Include="ListOcx.h">
+      <Filter>Header Files\ListSheet</Filter>
+    </ClInclude>
+    <ClInclude Include="ListSheet.h">
+      <Filter>Header Files\ListSheet</Filter>
+    </ClInclude>
+    <ClInclude Include="Option.h">
+      <Filter>Header Files\ListSheet</Filter>
+    </ClInclude>
+    <ClInclude Include="PageTree.h">
+      <Filter>Header Files\ListSheet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\listpagepty.h">
+      <Filter>Header Files\ListSheet\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ListWnd.h">
+      <Filter>Header Files\ListSheet\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\PropertySheetRz.h">
+      <Filter>Header Files\ListSheet\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\ResizePage.h">
+      <Filter>Header Files\ListSheet\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\wait.h">
+      <Filter>Header Files\ListSheet\common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="bmtreebi.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="delayed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="delmissi.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="fileinfo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="follow.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Found.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="mailme.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="missing.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="NFdelayed.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="NotFound.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="support.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="fileinfo.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="plugins.txt" />
+    <Text Include="ReadMe.txt" />
+    <Text Include="todolist.txt" />
+  </ItemGroup>
+</Project>
